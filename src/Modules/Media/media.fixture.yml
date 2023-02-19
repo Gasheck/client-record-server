@@ -1,0 +1,14 @@
+entity: Media
+items:
+  media1:
+    url: '13123123123'
+    appointment: '@appointment1'
+  media2:
+    url: '87937493948'
+    appointment: '@appointment1'
+  media3:
+    url: '0989373223'
+    appointment: '@appointment2'
+  media4:
+    url: '3495834985'
+    appointment: '@appointment3'
