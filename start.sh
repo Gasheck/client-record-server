@@ -15,7 +15,7 @@ if [ "$NODE_ENV" == "production" ]; then
   yarn build
 fi
 
-if [ "$NODE_ENV" != "production" ]; then
+if [ "$NODE_ENV" != "development" ] || [ "$NODE_ENV" == "" ]; then
   echo "Starting application in dev mode."
   echo ""
   yarn serve
