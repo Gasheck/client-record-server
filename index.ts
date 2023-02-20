@@ -13,6 +13,8 @@ import { ApolloServer } from "apollo-server-express";
 import { ProcedureResolver } from "./src/Modules/Procedure/procedure.resolver";
 import { MediaService } from "./src/Modules/Media/media.service";
 
+require('dotenv-flow').config();
+
 const upload = multer({ dest: "uploads/" });
 
 createConnection().then(() => {
